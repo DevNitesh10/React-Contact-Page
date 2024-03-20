@@ -6,9 +6,11 @@ import Navbar from './components/navigation/Navbar'
 function App() {
   return (
     <>
-    <Navbar />
-    <Contactheader />
-    <Contactform />
+      <div>
+        <Navbar />
+          <Contactheader />
+          <Contactform />
+      </div>
     </>
   )
 }

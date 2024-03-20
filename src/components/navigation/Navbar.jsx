@@ -4,7 +4,7 @@ const Navbar = () => {
   return (
     <>
     <nav className={`${styles.navigation} container`}>
-        <div>
+        <div className={styles.logo}>
             <img src="/public/images/logo.png" alt="logo" />
         </div>
 
@@ -15,7 +15,6 @@ const Navbar = () => {
         </ul>
     </nav>
     </>
-  )
-}
-
+  );
+};
 export default Navbar

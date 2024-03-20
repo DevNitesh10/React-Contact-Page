@@ -12,3 +12,10 @@
     gap: 24px;
     font-weight: 500;
 }
+.navigation ul li:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.logo:hover{
+    cursor: pointer;
+}
